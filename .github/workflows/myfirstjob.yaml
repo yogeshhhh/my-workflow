@@ -12,3 +12,5 @@ jobs:
            run: echo "my first job"
          - name: list files
            run: ls
+         - name : Read file
+           run: cat README.md
