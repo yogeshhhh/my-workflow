@@ -10,4 +10,4 @@ jobs:
            run: echo "my first job"
 
          - name: list files
-           run: list
+           run: ls
