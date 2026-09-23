@@ -13,13 +13,13 @@ jobs:
            run: sudo apt install cowsay -y
 
          - name: Generate ASCII Artwork
-           run: cowsay -f elephant "Run for a cover i am a elephant....RAWR" > elephant.txt
+           run: cowsay -f dragon "Run for a cover i am a elephant....RAWR" > dragon.txt
 
          - name: test file exist
-           run: grep -i "elephant" elephant.txt
+           run: grep -i "dragon" dragon.txt
 
          - name: read file
-           run: cat elephant.txt
+           run: cat dragon.txt
 
          - name: list repo list
            run: ls -ltra
