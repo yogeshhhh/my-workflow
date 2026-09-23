@@ -16,10 +16,10 @@ jobs:
            run: cowsay -f elephant "Run for a cover i am a elephant....RAWR" > elephant.txt
 
          - name: test file exist
-           run: grep -i "dragon" dragon.txt
+           run: grep -i "elephant" elephant.txt
 
          - name: read file
-           run: cat dragon.txt
+           run: cat elephant.txt
 
          - name: list repo list
            run: ls -ltra
